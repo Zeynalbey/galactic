@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.all{
+  background-image: url(https://images.unsplash.com/photo-1528722828814-77b9b83aafb2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80);
+  height: 47rem;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  
+}
+.ring {
+    position: relative;
+    width: 139px;
+    height: 139px;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 100%;
+    top: 338px;
+    left: -20px;
+  }
+
+.ball-holder {
+    
+   position: absolute;
+   width: 159px;
+   height: 76px;
+   left: -8px;
+   top: 30px;
+   animation: loading 5s linear infinite
+  }
+  
+  .ball {
+
+    position: absolute;
+    top: -8px;
+    left: 0;
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+  }
+
+  .ball img{
+    width: 180%;
+  }
+  
+  @keyframes loading {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .ring1 {
+    position: relative;
+    width: 355px;
+    height: 355px;
+    border: 1px solid #000000;
+    border-radius: 100%;
+    top: 90px;
+    left: 540px;
+  }
+
+.ball-holder1 {
+    position: absolute;
+    width: 160px;
+    height: 381px;
+    left: 100px;
+    bottom: -20px;
+    animation: loading1 15s linear infinite;
+  }
+  
+  .ball1 {
+    position: absolute;
+
+    border-radius: 100%;
+
+  }
+
+  .ball1 img{
+    width: 45px;
+  }
+  
+  @keyframes loading1 {
+    from {
+      transform: rotate(360deg);
+    }
+    to {
+      transform: rotate(0deg);
+    }
+  }
+
+  .ring2 {
+    position: absolute;
+    width: 550px;
+    height: 550px;
+    left: 30%;
+    top: 15%;
+    border: 1px solid #000000;
+    border-radius: 100%;
+  }
+
+
+  .ball-holder2 {
+    position: absolute;
+    width: 363px;
+    height: 474px;
+    left: 15px;
+    top: -56px;
+    animation: loading2 7s linear infinite;
+    padding: 85px;
+  }
+  
+  .ball2 {
+    position: absolute;
+    left: 200px;
+    top: 25px;
+
+  }
+
+  .ball2 img{
+    width: 20% ;
+  }
+  
+  @keyframes loading2 {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+
